@@ -1,7 +1,7 @@
 import tensorflow_datasets as tfds
 
 def process(arr, covnet):
-    arr_size = arr.shape[0]
+    arr_size = arr.shape[1]
     if covnet:
         arr_shape = (-1, arr_size, arr_size, arr_size.shape[1])
     else:
