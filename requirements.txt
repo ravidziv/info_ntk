@@ -1,0 +1,6 @@
+tensorflow_datasets
+tensorflow_probability
+neural_tangents
+pandas
+jax
+jaxlib
